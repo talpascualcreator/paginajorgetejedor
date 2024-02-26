@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montajes de Lujo Jorge Tejedor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <h1 class="logo">Montajes de Lujo</h1>
+        <p class="brand-name">Jorge Tejedor <img src="imagenes/logo.webp" alt="logo"></p>
+        <p class="slogan">Especialistas en montajes y remodelaciones</p>
+      </div>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <input type="checkbox" id="menu">
+        <label for="menu">☰</label>
+        <ul class="nav-links">
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="servicios.html">servicion</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="slider">
+  <div><img src="imagenes/imagen1.webp" alt="Imagen 1"></div>
+  <div><img src="imagenes/imagen2.webp" alt="Imagen 2"></div>
+  <div><img src="imagenes/imagen3.webp" alt="Imagen 3"></div>
+  <div><img src="imagenes/imagen4.webp" alt="Imagen 4"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+
+  <main>
+
+    <section class="contact">
+        <h2 class="contact__title">Nuestros Contactos</h2>
+        <div class="contact__item">
+          <img src="imagenes/teléfono.png" alt="Phone Icon" class="contact__icon" id="phoneIcon" onclick="toggleDetails('phoneDetails')">
+          <div class="contact__details" id="phoneDetails">
+            <p class="contact__label">Teléfono:</p>
+            <p class="contact__info">+34685420338</p>
+          </div>
+        </div>
+        
+        <div class="contact__item">
+          <img src="imagenes/correo.png" alt="Email Icon" class="contact__icon" id="emailIcon" onclick="toggleDetails('emailDetails')">
+          <div class="contact__details" id="emailDetails">
+            <p class="contact__label">Correo Electrónico:</p>
+            <p class="contact__info">montajeslujo@gmail.com</p>
+          </div>
+        </div>
+        
+        <div class="contact__item">
+          <img src="imagenes/whatsapp.png" alt="WhatsApp Icon" class="contact__icon" id="whatsappIcon" onclick="toggleDetails('whatsappDetails')">
+          <div class="contact__details" id="whatsappDetails">
+            <p class="contact__label">WhatsApp:</p>
+            <p class="contact__info">+34685420338</p>
+          </div>
+        </div>
+      </section>
+      
+
+    <section class="map-container">
+        <h2 class="subtitle">Nuestra Ubicacion</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97521.9388324304!2d-3.6324124558628963!3d40.19659139171179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42177ea9032c9d%3A0xdff522622e0b8d7!2s28330%20San%20Mart%C3%ADn%20de%20la%20Vega%2C%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sco!4v1708838047625!5m2!1ses-419!2sco" width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+  </main>
+
+
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <nav class="nav nav--footer">
+        <a class="nav__items nav__item--footer" href="index.html">inicio</a>
+        <a class="nav__items nav__item--footer" href="index.html">sobre mi</a>
+        <a class="nav__items nav__item--footer" href="index.html">Integrantes</a>
+        <a class="nav__items nav__item--footer" href="index.html">contactanos</a>
+
+    </nav>
+
+    <section class="footer__contact">
+        <h3 class="footer__title">Contactanos</h3>
+        <div class="footer__icons">
+            <span class="footer__container-icons">
+                <a class="fa-brands fa-facebook footer__icon"href="https://www.facebook.com/jorge.tejedorgonzalez" target="_blank"></a>
+
+            </span>
+            <span class="footer__container-icons">
+                <a class="fa-brands fa-whatsapp footer__icon"href="https://wa.me/+34685420338?texto=Quisiera%20consultar%20sobre%20el%20servicio" target="_blank"></a>
+                
+            </span>
+            <span class="footer__container-icons">
+                <a class="fa-brands fa-instagram footer__icon"href="https://instagram.com/jorge.tejedorgonzalez=YmMyMTA2M2Y=" target="_blank"></a>
+                
+            </span>
+
+            <span class="footer__container-icons">
+                <a class="fa-brands fa-youtube footer__icon"href="https://www.youtube.com/results?search_query=jorge.tejedorgonzalez" target="blank"></a>
+                
+            </span>
+            
+        </div>
+
+    </section>
+
+</div>
+
+</footer>
+<script src="https://kit.fontawesome.com/bb8e4952fc.js" crossorigin="anonymous"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
